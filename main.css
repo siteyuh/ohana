@@ -1,5 +1,9 @@
 @media print {
   p {
-    font-size: 24rem;
+    font-size: 20rem;
+  }
+
+  body {
+    margin: 0;
   }
 }
