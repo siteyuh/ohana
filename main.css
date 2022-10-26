@@ -5,6 +5,10 @@
     padding: 0;
   }
 
+  p::after {
+    content: "様";
+  }
+
   body {
     margin: 0;
   }
