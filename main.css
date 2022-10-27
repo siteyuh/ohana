@@ -35,9 +35,11 @@
 @media screen {
   div {
     display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
   }
 
-  div > * {
-    margin-right: 2rem;
+  p {
+    margin: 0rem;
   }
 }
