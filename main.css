@@ -1,19 +1,17 @@
 @media print {
   * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   div {
-    margin: 0;
-    padding: 0;
     width: 100vw;
     height: 50vh;
   }
 
   p.name {
     font-size: 14.2vw;
-    margin: 0;
-    padding: 0;
     /* width: 100vw; */
     text-align-last: justify;
   }
@@ -22,7 +20,7 @@
     font-size: 7vw;
   }
 
-  p::after {
+  p.name::after {
     content: "様";
   }
 
