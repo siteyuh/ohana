@@ -6,10 +6,10 @@
   }
 
   p {
-    font-size: 9rem;
+    font-size: 7vw;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     text-align-last: justify;
     box-sizing: border-box;
   }
