@@ -42,4 +42,8 @@
   p {
     margin: 0rem;
   }
+
+  p.name {
+    font-size: 1.2rem;
+  }
 }
