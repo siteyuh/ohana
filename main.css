@@ -35,4 +35,8 @@
   div {
     display: flex;
   }
+
+  div > * {
+    margin-right: 2rem;
+  }
 }
