@@ -1,17 +1,25 @@
 @media print {
+  * {
+    box-sizing: border-box;
+  }
+
   div {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
+    height: 50vh;
   }
 
-  p {
-    font-size: 7vw;
+  p.name {
+    font-size: 14.2vw;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
     text-align-last: justify;
-    box-sizing: border-box;
+  }
+
+  p.title {
+    font-size: 7vw;
   }
 
   p::after {
