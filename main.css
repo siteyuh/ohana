@@ -8,18 +8,18 @@
   div {
     width: 100%;
     /* height: 50vh; */
-    margin-bottom: 10vh;
+    margin-bottom: 3rem;
   }
 
   p.name {
-    font-size: 14.2rem;
+    font-size: 5.7rem;
     width: 100%;
     text-align-last: justify;
     margin-top: -1rem;
   }
 
   p.title {
-    font-size: 7.1rem;
+    font-size: 3rem;
   }
 
   p.name::after {
@@ -36,7 +36,7 @@
   div {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   p {
