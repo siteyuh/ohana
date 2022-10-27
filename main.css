@@ -32,7 +32,7 @@
 }
 
 @media screen {
-  div > * {
+  div {
     display: flex;
   }
 }
