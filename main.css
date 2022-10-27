@@ -1,6 +1,6 @@
 @media print {
   p {
-    font-size: 20rem;
+    font-size: 16rem;
     margin: 0;
     padding: 0;
   }
@@ -11,5 +11,6 @@
 
   body {
     margin: 0;
+    padding: 0;
   }
 }
