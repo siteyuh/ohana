@@ -15,11 +15,11 @@
     font-size: 14.2vw;
     width: 100vw;
     text-align-last: justify;
-    margin-top: -5rem;
+    margin-top: -1rem;
   }
 
   p.title {
-    font-size: 7vw;
+    font-size: 7.1vw;
   }
 
   p.name::after {
