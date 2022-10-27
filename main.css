@@ -9,6 +9,8 @@
     width: 100%;
     /* height: 50vh; */
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   p.name {
