@@ -11,6 +11,7 @@ div {
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column-reverse;
+  break-after: page;
 }
 
 p.name {
