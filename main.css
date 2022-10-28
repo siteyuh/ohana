@@ -35,11 +35,17 @@ body {
   padding: 0;
 }
 
-@media print {
+@media print and (orientation: portrait) {
+  div:nth-of-type( 3n ) {
+    /* 3枚目ごと */
+    break-after: page;
+  }  
+}
+
+@media print and (orientation: landscape) {
   div:nth-child( even ) {
     break-after: page;
   }
-    
 }
 
 @media screen {
