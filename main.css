@@ -13,10 +13,6 @@ div {
   flex-direction: column-reverse;
 }
 
-div:nth-child( even ) {
-  break-after: page;
-}
-
 p.name {
   font-size: 14.2vw;
   width: 100%;
@@ -40,7 +36,10 @@ body {
 }
 
 @media print {
-  
+  div:nth-child( even ) {
+    break-after: page;
+  }
+    
 }
 
 @media screen {
