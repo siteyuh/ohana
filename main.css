@@ -23,6 +23,7 @@ p.name {
 
 p.title {
   font-size: 7vw;
+  height: 7vw;
   break-after: avoid-page;
 }
 
