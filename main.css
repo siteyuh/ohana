@@ -18,10 +18,12 @@ p.name {
   width: 100%;
   text-align-last: justify;
   margin-top: -0.5rem;
+  break-after: avoid-page;
 }
 
 p.title {
   font-size: 7vw;
+  break-after: avoid-page;
 }
 
 p.name::after {
