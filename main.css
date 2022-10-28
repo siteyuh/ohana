@@ -11,6 +11,9 @@ div {
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column-reverse;
+}
+
+div:nth-child(odd) {
   break-after: page;
 }
 
