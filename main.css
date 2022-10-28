@@ -13,7 +13,7 @@ div {
   flex-direction: column-reverse;
 }
 
-div:nth-child(odd) {
+div:nth-child( even ) {
   break-after: page;
 }
 
