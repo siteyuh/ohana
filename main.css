@@ -36,10 +36,19 @@
   div {
     display: flex;
     flex-direction: row-reverse;
+    align-content: center;
+    height: 2rem;
+    align-items: center;
   }
 
   p {
-    width: 49%;
+    width: 20%;
+  }
+
+  p.title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }
 
