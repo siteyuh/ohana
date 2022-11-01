@@ -14,7 +14,7 @@ div {
 }
 
 p.name {
-  font-size: 14.2vw;
+  font-size: 13.7vw;
   font-weight: 900;
   width: 100%;
   text-align-last: justify;
@@ -24,9 +24,12 @@ p.name {
 
 p.title {
   font-size: 7vw;
-  height: 7vw;
+  height: 1em;
   break-after: avoid-page;
   font-feature-settings: "palt";
+}
+p.amount {
+  display: none;
 }
 
 p.name::after {
@@ -35,7 +38,7 @@ p.name::after {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 @media print and (orientation: portrait) {
