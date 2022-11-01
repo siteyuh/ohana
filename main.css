@@ -30,6 +30,10 @@
     break-after: avoid-page;
     font-feature-settings: "palt";
   }
+  p.amount {
+    display: none;
+  }
+
 }
 
 @media screen {
@@ -55,9 +59,6 @@
     overflow: hidden;
   }
 
-  p.amount {
-    display: none;
-  }
 }
 
 p.name::after {
