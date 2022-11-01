@@ -26,7 +26,7 @@
 
   p.title {
     font-size: 7vw;
-    height: 7vw;
+    height: 1em;
     break-after: avoid-page;
     font-feature-settings: "palt";
   }
