@@ -16,7 +16,7 @@
   }
 
   p.name {
-    font-size: 14.2vw;
+    font-size: 13.7vw;
     font-weight: 900;
     width: 100%;
     text-align-last: justify;
@@ -67,7 +67,7 @@ p.name::after {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 @media print and (orientation: portrait) {
