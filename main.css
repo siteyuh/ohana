@@ -36,7 +36,6 @@
   div {
     display: flex;
     flex-direction: row-reverse;
-    align-content: center;
     height: 2rem;
     align-items: center;
   }
