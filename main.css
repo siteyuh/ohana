@@ -5,28 +5,47 @@
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック Medium", "BIZ UDPGothic", sans-serif;
 }
 
-div {
-  width: 100%;
-  /* height: 50vh; */
-  margin-bottom: 4rem;
-  display: flex;
-  flex-direction: column-reverse;
+@media print {
+
+  div {
+    width: 100%;
+    /* height: 50vh; */
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  p.name {
+    font-size: 14.2vw;
+    font-weight: 900;
+    width: 100%;
+    text-align-last: justify;
+    margin-top: -0.5rem;
+    break-after: avoid-page;
+  }
+
+  p.title {
+    font-size: 7vw;
+    height: 7vw;
+    break-after: avoid-page;
+    font-feature-settings: "palt";
+  }
 }
 
-p.name {
-  font-size: 14.2vw;
-  font-weight: 900;
-  width: 100%;
-  text-align-last: justify;
-  margin-top: -0.5rem;
-  break-after: avoid-page;
-}
+@media screen {
 
-p.title {
-  font-size: 7vw;
-  height: 7vw;
-  break-after: avoid-page;
-  font-feature-settings: "palt";
+  div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  p.name {
+    width: 65%;
+  }
+
+  p.title {
+    width: 30%;
+  }
 }
 
 p.name::after {
