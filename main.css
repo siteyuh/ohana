@@ -8,13 +8,13 @@
 div {
   width: 100%;
   /* height: 50vh; */
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column-reverse;
 }
 
 p.name {
-  font-size: 15.3vw;
+  font-size: 14.2vw;
   font-weight: 900;
   width: 100%;
   text-align-last: justify;
