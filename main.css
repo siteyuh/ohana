@@ -5,31 +5,60 @@
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック Medium", "BIZ UDPGothic", sans-serif;
 }
 
-div {
-  width: 100%;
-  /* height: 50vh; */
-  margin-bottom: 4rem;
-  display: flex;
-  flex-direction: column-reverse;
+@media print {
+
+  div {
+    width: 100%;
+    /* height: 50vh; */
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  p.name {
+    font-size: 13.7vw;
+    font-weight: 900;
+    width: 100%;
+    text-align-last: justify;
+    margin-top: -0.5rem;
+    break-after: avoid-page;
+  }
+
+  p.title {
+    font-size: 7vw;
+    height: 1em;
+    break-after: avoid-page;
+    font-feature-settings: "palt";
+  }
+  p.amount {
+    display: none;
+  }
+
 }
 
-p.name {
-  font-size: 13.7vw;
-  font-weight: 900;
-  width: 100%;
-  text-align-last: justify;
-  margin-top: -0.5rem;
-  break-after: avoid-page;
-}
+@media screen {
+  div {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+  }
 
-p.title {
-  font-size: 7vw;
-  height: 1em;
-  break-after: avoid-page;
-  font-feature-settings: "palt";
-}
-p.amount {
-  display: none;
+  p {
+    width: 20%;
+  }
+
+  p.name {
+    width: 7rem;
+  }
+
+  p.title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
 }
 
 p.name::after {
